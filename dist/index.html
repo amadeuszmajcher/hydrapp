@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
+    <title>HydrApp</title>
     <meta name="description" content="Description" />
 
     <!-- Title -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="HydrApp - Pij wode!" />
     <!-- OPTIONAL description. 2-4 sentences. -->
     <meta property="og:description" content="" />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
@@ -33,7 +33,16 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <h1>Hello world - with simple PWA support!</h1>
+    <main class="main">
+      <section class="container">
+        <div class="glass glass--js">
+          <img src="assets/img/water-glass.svg" alt="water glass" >
+          <div class="glass--number glass--number__js"></div>
+        </div>
+        <button class="button--add button--add__js">dodaj szklankę</button>
+        <button class="button--delete button--delete__js">usuń szklankę</button>
+      </section>
+    </main>
 
     <script src="js/main.js"></script>
   </body>
